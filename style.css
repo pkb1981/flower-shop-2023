@@ -115,3 +115,29 @@ body {
 }
 
 /* LATEST DEAL SECTION */
+.latest-deal {
+    background-image: url('./images/latest.png');
+    background-size: 100%;
+    text-align: center;
+    padding: 20px 0 50px 0;
+    margin: 0 200px;
+}
+
+.email {
+    padding: 10px 120px;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* FOOTER SECTION */
+footer {
+    margin: 40px;
+    background-color: black;
+    color: rgb(189, 186, 186);
+    text-align: center;
+    padding: 30px 320px;
+}
+
+#color {
+    color: #E55473;
+}
