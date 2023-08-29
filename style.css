@@ -129,6 +129,31 @@ body {
     border: 0;
 }
 
+/* TESTIMONIAL SECTION */
+.testimonial {
+    text-align: center;
+    justify-content: center;
+    padding: 30px 150px;
+}
+
+.testimonial h1 {
+    padding-bottom: 30px;
+}
+
+.test-pic {
+    display: flex;
+}
+
+.test-pic img {
+    border-radius: 100%;
+}
+
+.fa-solid,
+.fa-regular {
+    color: orange;
+}
+
+
 /* FOOTER SECTION */
 footer {
     margin: 40px;
@@ -138,6 +163,6 @@ footer {
     padding: 30px 320px;
 }
 
-#color {
+.color {
     color: #E55473;
 }
