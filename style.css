@@ -1,0 +1,31 @@
+/* google font link */
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+.banner {
+    padding: 30px 30px 0 100px;
+    display: flex;
+    background-color: #f5e5e9;
+    gap: 50px;
+}
+
+.banner-content {
+    width: 40%;
+    padding-right: 10%;
+}
+
+.banner-pic {
+    width: 250px;
+    padding-left: 10%;
+}
+
+.flower-button {
+    background-color: #E55473;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+}
