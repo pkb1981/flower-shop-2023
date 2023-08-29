@@ -4,6 +4,7 @@ body {
     margin: 0;
 }
 
+/*BANNER SECTION STARTS*/
 .banner {
     padding: 30px 30px 0 100px;
     display: flex;
@@ -28,4 +29,52 @@ body {
     color: white;
     font-size: 16px;
     padding: 10px 20px;
+}
+
+/* MAIN SECTION--FEATURE */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.feature-text {
+    text-align: center;
+}
+
+.feature-text p {
+    padding: 0 30%;
+}
+
+.feature-flower {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.flower {
+    text-align: center;
+}
+
+#flower1 {
+    background-color: #f5cce0;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+
+#flower2 {
+    background-color: #d0f4f6;
+    padding: 29px 20px;
+    margin-right: 10px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+
+#flower3 {
+    background-color: #e0f2ce;
+    padding: 4px 20px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
 }
