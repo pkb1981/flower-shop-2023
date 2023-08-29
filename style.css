@@ -10,6 +10,7 @@ body {
     display: flex;
     background-color: #f5e5e9;
     gap: 50px;
+    margin-bottom: 50px;
 }
 
 .banner-content {
@@ -32,17 +33,13 @@ body {
 }
 
 /* MAIN SECTION--FEATURE */
-main {
-    max-width: 1140px;
-    margin: 0 auto;
-}
 
 .feature-text {
     text-align: center;
 }
 
 .feature-text p {
-    padding: 0 30%;
+    padding: 0 25%;
 }
 
 .feature-flower {
@@ -58,23 +55,51 @@ main {
 
 #flower1 {
     background-color: #f5cce0;
-    padding: 10px 20px;
-    margin-right: 10px;
+    padding: 15px 30px;
+    margin-right: 15px;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
 }
 
 #flower2 {
     background-color: #d0f4f6;
-    padding: 29px 20px;
-    margin-right: 10px;
+    padding: 34px 30px;
+    margin-right: 15px;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
 }
 
 #flower3 {
     background-color: #e0f2ce;
-    padding: 4px 20px;
+    padding: 9px 30px;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
+}
+
+/* activities section */
+.support {
+    display: flex;
+    gap: 30px;
+    background-color: #f7f5f5;
+    margin: 20px 200px 50px 200px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 40px 10px 40px;
+    align-items: baseline;
+}
+
+.support img {
+    width: 25%;
+}
+
+/* HOT DEALS SECTION */
+.hot-deals {
+    display: flex;
+    background-color: #f4edef;
+    padding: 50px 200px;
+}
+
+.deals-text {
+    text-align: center;
+    padding: 0 30px;
 }
