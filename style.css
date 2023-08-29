@@ -88,18 +88,30 @@ body {
     align-items: baseline;
 }
 
-.support img {
-    width: 25%;
-}
-
 /* HOT DEALS SECTION */
 .hot-deals {
     display: flex;
     background-color: #f4edef;
     padding: 50px 200px;
+    margin-bottom: 50px;
 }
 
 .deals-text {
     text-align: center;
     padding: 0 30px;
 }
+
+/* instagram section */
+
+.instagram {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.insta-text {
+    padding: 0 300px 10px 300px;
+}
+
+/* LATEST DEAL SECTION */
